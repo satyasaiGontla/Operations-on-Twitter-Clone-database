@@ -4,7 +4,7 @@ const path = require("path");
 const sqlite3 = require("sqlite3");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-//const format = require("date-fns/format");
+
 let database;
 const app = express();
 app.use(express.json());
